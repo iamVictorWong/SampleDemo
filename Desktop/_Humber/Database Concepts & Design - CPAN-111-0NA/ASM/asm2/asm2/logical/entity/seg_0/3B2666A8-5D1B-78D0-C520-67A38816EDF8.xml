@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3B2666A8-5D1B-78D0-C520-67A38816EDF8" name="DEPARTMENT">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-11 06:03:01 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Department_Code" id="4645FAEE-DA19-9E5A-2E8E-A8614A8B20D7">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-11 06:03:16 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dept_Name" id="91A69662-44DF-592F-95ED-7C209514F77F">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-11 06:03:49 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dept_Mngr" id="0D6D90D9-BC40-0B7E-B756-9D2B34323458">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-11 06:04:40 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Employee_Num" id="743CEB81-8082-8249-A71E-BADFF64D4ACA">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-22 02:16:30 UTC</createdTime>
+<generatorID>6323EA99-90E5-F441-7F23-31B0B77ACD5C</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="true"/>
+</engineerTo>
+<referedAttribute>06D15101-5AD8-657C-1465-472877F2B40E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A98E38FE-5FE1-12A3-72E1-3CCCC70A882A" name="DEPARTMENT PK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-11 06:03:47 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4645FAEE-DA19-9E5A-2E8E-A8614A8B20D7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

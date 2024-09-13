@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EPE_DET" directorySegmentName="seg_0" id="A39E72FE-73C6-0BC8-1411-1E75E93E97C6">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 21:55:29 UTC</createdTime>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<engineerTo>
+<item key="BE0BAC7F-8F55-2E2C-1CBA-E77C986D694C" value="true"/>
+</engineerTo>
+<sourcePk>5D8F61FB-D253-5495-C331-D1C4380203CE</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>retain</nameOnSource>
+<nameOnTarget>be assigned to</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>283A9646-9166-7C68-C07A-06EC5CF432F0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>47B4152A-2027-DFF5-9C12-9FE2F6800414</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

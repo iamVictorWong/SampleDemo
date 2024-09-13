@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="asm2" id="F720B8B3-3420-165D-F99B-11D1E73C82DB" version="3.5">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-10 16:49:50 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F720B8B3-3420-165D-F99B-11D1E73C82DB</designId>
+</OSDM_Design>

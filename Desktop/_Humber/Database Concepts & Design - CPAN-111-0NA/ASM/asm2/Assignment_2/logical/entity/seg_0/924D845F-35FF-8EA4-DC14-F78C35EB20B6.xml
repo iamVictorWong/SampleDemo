@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="924D845F-35FF-8EA4-DC14-F78C35EB20B6" name="DEPENDENTS">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:40:56 UTC</createdTime>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<engineerTo>
+<item key="BE0BAC7F-8F55-2E2C-1CBA-E77C986D694C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>DPD</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="01345322-69A2-D442-5566-1456FF9C52F1">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:41:16 UTC</createdTime>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<engineerTo>
+<item key="BE0BAC7F-8F55-2E2C-1CBA-E77C986D694C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="C9A03630-7011-1531-D87C-65C64360BF47">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:41:34 UTC</createdTime>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<engineerTo>
+<item key="BE0BAC7F-8F55-2E2C-1CBA-E77C986D694C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="relationship" id="DAAC36E5-2164-8DD4-4FB6-E2DC23169995">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:42:11 UTC</createdTime>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<engineerTo>
+<item key="BE0BAC7F-8F55-2E2C-1CBA-E77C986D694C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num" id="5859C812-404D-1FD6-2A24-C3B6BEB844CD">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:45:56 UTC</createdTime>
+<generatorID>C7162BF5-F36E-C1AD-CB19-9646D5C22FCD</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<engineerTo>
+<item key="BE0BAC7F-8F55-2E2C-1CBA-E77C986D694C" value="true"/>
+</engineerTo>
+<referedAttribute>B64D320A-103D-5459-325F-58BA323AC89D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2D4C88DC-2EB2-BBF4-02A4-F88BEE62CA45" name="DEPENDENT PK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:41:32 UTC</createdTime>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BE0BAC7F-8F55-2E2C-1CBA-E77C986D694C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>01345322-69A2-D442-5566-1456FF9C52F1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

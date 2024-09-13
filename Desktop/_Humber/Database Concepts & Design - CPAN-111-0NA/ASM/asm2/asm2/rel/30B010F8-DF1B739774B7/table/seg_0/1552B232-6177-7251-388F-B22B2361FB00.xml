@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1552B232-6177-7251-388F-B22B2361FB00" name="DEPENDENT">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>B75E6335-D1C2-06BC-E288-90F6AA79CE44</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Dependent_ID" id="5D6E43A5-C60D-7651-5735-5A864E40188C">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>BE315EEB-3B33-EC81-9F02-31065ECC7212</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dependent_Name" id="BCA357E9-F672-9E6B-4E6A-F8C250043F6F">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>97060550-74F3-F9BB-D816-423CD61BCE99</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Relationship" id="C2495021-52DA-E16A-3818-F65ADB7E4DBB">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>E8E96EDC-DB24-0A23-2624-40CE0BAD601B</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_Employee_Num" id="6281BE8E-9E7A-1E9F-B68A-246F0C9BEF9A">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>F53B95DC-3EDC-EEAD-4B12-D78CFF5E3E19</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB990904-8C6F-5F50-A34A-1DF08D468F2B" referredColumn="A38016DA-D63C-0DBD-CAAA-86AE096C780D"/>
+</associations>
+</Column>
+<Column name="Employee_Num" id="DD7656DB-1A34-E964-2130-86D6D85D50F6">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-22 02:17:42 UTC</createdTime>
+<generatorID>87BB3A01-4566-5119-6331-C1272E44A2E7</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F04DBEBC-977D-21C8-50A0-AE99F08A41BE" name="DEPENDENT_PK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>3345C90A-0D94-A45B-C037-7FBE98C5A50C</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D6E43A5-C60D-7651-5735-5A864E40188C"/>
+<colUsage columnID="6281BE8E-9E7A-1E9F-B68A-246F0C9BEF9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD43ECF1-42D5-215B-B569-260347BB9A00" name="DEPENDENT_EMPLOYEE_FK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>44C9D237-17FC-4BC3-2113-C010EF188B7D</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6281BE8E-9E7A-1E9F-B68A-246F0C9BEF9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

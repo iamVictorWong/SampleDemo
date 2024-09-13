@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC094BFE-E193-852E-1556-493495516F33" name="DEPARTMENT">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>3B2666A8-5D1B-78D0-C520-67A38816EDF8</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Department_Code" id="A537B699-0BEF-760A-4C45-F0772F6BB09D">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>4645FAEE-DA19-9E5A-2E8E-A8614A8B20D7</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dept_Name" id="62D69C11-0AB4-BBE0-C7E4-ACACECF10A53">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>91A69662-44DF-592F-95ED-7C209514F77F</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dept_Mngr" id="082FFB54-BE06-E6EC-752C-0417423585EA">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>0D6D90D9-BC40-0B7E-B756-9D2B34323458</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_Employee_Num" id="A4AC19A7-2CFD-2797-E52E-F83D2962FD9E">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>6D7104CB-7861-C63A-F4D0-D6A055D6AA1D</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="933B7241-719A-14A5-25D9-245C21ECD9BA" referredColumn="A38016DA-D63C-0DBD-CAAA-86AE096C780D"/>
+</associations>
+</Column>
+<Column name="Employee_Num" id="A0515849-65EE-BD7A-72EF-3153431C349D">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-22 02:17:42 UTC</createdTime>
+<generatorID>743CEB81-8082-8249-A71E-BADFF64D4ACA</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E84092C-8A1D-E004-5533-07FCC0EA3106" name="DEPARTMENT_PK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>A98E38FE-5FE1-12A3-72E1-3CCCC70A882A</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A537B699-0BEF-760A-4C45-F0772F6BB09D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7E59D79-31D7-51F6-6D32-C0F7BDFB175E" name="DEPARTMENT_EMPLOYEE_FK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>6323EA99-90E5-F441-7F23-31B0B77ACD5C</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4AC19A7-2CFD-2797-E52E-F83D2962FD9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

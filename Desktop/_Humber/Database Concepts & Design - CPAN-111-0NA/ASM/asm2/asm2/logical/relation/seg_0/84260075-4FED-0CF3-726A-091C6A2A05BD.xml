@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMP_SESS" directorySegmentName="seg_0" id="84260075-4FED-0CF3-726A-091C6A2A05BD">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-12 22:34:41 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="true"/>
+</engineerTo>
+<sourcePk>66728B70-CF92-24BA-C453-4197D9D6AE37</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Attend</nameOnSource>
+<nameOnTarget>Be attended</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>11C656EA-899A-9BD2-340F-613E4B805F69</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>731E86DB-7F33-E816-61DD-E4ADFEAD2251</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0AC9826-F06C-4D91-7682-11FC201434BD" name="SESSION">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>731E86DB-7F33-E816-61DD-E4ADFEAD2251</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPLOYEE_Employee_Num" id="826ADF93-BEA7-F38B-E041-9A0392B1CC62">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>EA53E70E-D48A-6F31-8EF1-83EF41778E6E</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8B9C868-8FE0-1803-8DB0-7D2E93431037" referredColumn="A38016DA-D63C-0DBD-CAAA-86AE096C780D"/>
+</associations>
+</Column>
+<Column name="TRAINING_Course_ID" id="98DDD30C-0ABE-BFB3-D9DC-F339DBC2C6E7">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>749AB5F0-7756-2019-9433-EA8381CA9058</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="107E6FE4-FAB3-7B35-C0A3-A3841AFAD6C8" referredColumn="2735AC44-A2D7-E381-3FF9-C9209FF6A569"/>
+</associations>
+</Column>
+<Column name="Session_date" id="3EED96BD-7F51-8154-2D04-62DB3697935A">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 23:15:12 UTC</createdTime>
+<generatorID>D50CB36C-0040-B868-FF05-0C83F2C58BB2</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Location" id="A5959EF5-C42B-5B49-CF84-51D709D8A6EA">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 23:15:12 UTC</createdTime>
+<generatorID>A106FB12-EE80-6971-A7A7-9380BDF0885F</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Employee_Num" id="98BE77B9-0F77-AF0E-FC5E-31966F710A5A">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-22 02:17:42 UTC</createdTime>
+<generatorID>3756C78E-387C-F645-3BAC-DCED2C01B58B</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45D5A946-6F42-028D-D919-62D67DD6C7C6" name="SESSION_PK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>9B80DE3E-B402-9CD1-D8E6-0C8FB1B374F1</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="826ADF93-BEA7-F38B-E041-9A0392B1CC62"/>
+<colUsage columnID="98DDD30C-0ABE-BFB3-D9DC-F339DBC2C6E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A8D8015-D7BE-C9D7-7250-A0ADFD671B21" name="SESSION_EMPLOYEE_FK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>84260075-4FED-0CF3-726A-091C6A2A05BD</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="826ADF93-BEA7-F38B-E041-9A0392B1CC62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB34C89E-C9BE-2B01-627F-5C3185FF5C9F" name="SESSION_TRAINING_FK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>6BD65902-C848-73A4-B7AE-01DA6E94C714</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98DDD30C-0ABE-BFB3-D9DC-F339DBC2C6E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

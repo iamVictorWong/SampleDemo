@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SSN_TRG" directorySegmentName="seg_0" id="A097707E-C823-2328-00DA-1CF4860828EE">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:34:12 UTC</createdTime>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<engineerTo>
+<item key="BE0BAC7F-8F55-2E2C-1CBA-E77C986D694C" value="true"/>
+</engineerTo>
+<sourcePk>370D1E0B-1A9C-C154-751E-3CDD594A66CF</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>be held</nameOnSource>
+<nameOnTarget>hold</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>295F12B4-4D8A-0EE0-B339-2167356355A0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AAC50DE4-2542-7107-52CA-A0E34506692F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

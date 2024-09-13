@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9F2D05D-9804-44BE-64F1-6F5FC01E7736" name="DEPARTMENTS">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:24:10 UTC</createdTime>
+<generatorID>283A9646-9166-7C68-C07A-06EC5CF432F0</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<abbreviation>DPT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="code" id="55B1FE3E-C598-ABA8-23F9-3B214F44086A">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:24:10 UTC</createdTime>
+<generatorID>F6592415-D3BA-E9E3-CD39-EB2CFAD54412</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="D99279C3-C3D5-6403-6AE6-93A4E3463072">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:24:10 UTC</createdTime>
+<generatorID>42CFCEA8-5F1B-A598-5924-999FB0D1435C</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="manager_name" id="059E1464-FD87-07B0-16BC-7A69767BB9F1">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:24:10 UTC</createdTime>
+<generatorID>2D2CF14A-AB9D-343E-BFF2-CFC6C1630DB3</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDEBB1A2-E224-58AC-C122-60C17889433B" name="DEPARTMENT_PK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:24:10 UTC</createdTime>
+<generatorID>5D8F61FB-D253-5495-C331-D1C4380203CE</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55B1FE3E-C598-ABA8-23F9-3B214F44086A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

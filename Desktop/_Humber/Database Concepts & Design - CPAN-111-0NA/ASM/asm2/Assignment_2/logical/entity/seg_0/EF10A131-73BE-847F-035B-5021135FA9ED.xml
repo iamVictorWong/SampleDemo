@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EF10A131-73BE-847F-035B-5021135FA9ED" name="EMPLOYEE EDUCATIONS">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:20:07 UTC</createdTime>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<engineerTo>
+<item key="BE0BAC7F-8F55-2E2C-1CBA-E77C986D694C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>EEN</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="certification" id="874A2FE0-2DB8-59F3-0825-9314AE212468">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:20:41 UTC</createdTime>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<engineerTo>
+<item key="BE0BAC7F-8F55-2E2C-1CBA-E77C986D694C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="level" id="E7ED3193-3D10-E92A-49B2-1C09CFD790DE">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:21:23 UTC</createdTime>
+<generatorID>DEBAE010-B203-976B-F1F8-827997476DEA</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<engineerTo>
+<item key="BE0BAC7F-8F55-2E2C-1CBA-E77C986D694C" value="true"/>
+</engineerTo>
+<referedAttribute>2C0F8BA9-DE50-7091-2FA9-425FF922D553</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num" id="4598E5E5-D6EB-A8D1-AF28-A893680ACD23">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:22:06 UTC</createdTime>
+<generatorID>E040EB57-92D0-54B8-854B-8C1F73DB1985</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<engineerTo>
+<item key="BE0BAC7F-8F55-2E2C-1CBA-E77C986D694C" value="true"/>
+</engineerTo>
+<referedAttribute>B64D320A-103D-5459-325F-58BA323AC89D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5FB028BE-6AA0-EC71-3548-48B0A56042F9" name="EMPLOYEE EDUCATION PK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:26:11 UTC</createdTime>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BE0BAC7F-8F55-2E2C-1CBA-E77C986D694C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E7ED3193-3D10-E92A-49B2-1C09CFD790DE</attributeRef>
+<attributeRef>4598E5E5-D6EB-A8D1-AF28-A893680ACD23</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

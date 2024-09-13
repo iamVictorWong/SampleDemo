@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F702F152-FA07-A6AB-70EC-CDD06A10CCA2" name="SESSIONS">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:46:32 UTC</createdTime>
+<generatorID>AAC50DE4-2542-7107-52CA-A0E34506692F</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<abbreviation>SSN</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="date" id="0C4C7255-1350-B1D7-2E81-C09494B9CF69">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:46:32 UTC</createdTime>
+<generatorID>140962DE-8FD7-4444-02CA-8887D7ECC676</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="37944BD9-EB24-87B8-EAA3-1C5613392FB4">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:46:32 UTC</createdTime>
+<generatorID>D8899761-2C4C-0E5C-3AA1-3D89BA529A48</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEES_num" id="FFF896D6-680A-B123-5C0E-69360F1B7C56">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:46:32 UTC</createdTime>
+<generatorID>239E4E7E-31C3-BE84-091B-16184C4472D1</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="472261F4-5049-0149-6DC4-2D816AF043C2" referredColumn="1C558776-857F-F109-8701-38A8C5B07DA8"/>
+</associations>
+</Column>
+<Column name="COURSES_id" id="1F495C24-2734-CB58-6D47-A6BBC5D26556">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:46:32 UTC</createdTime>
+<generatorID>37F20E4A-37E3-1329-7D6F-51DF0F97E45B</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="228223F3-7DF8-ED13-C842-EA4E5CF9B8B2" referredColumn="4A46B3A4-1418-DE61-1482-6C335CE4C6D1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C560A65-55DD-D115-BEE5-7C53C0B53462" name="SESSION_PK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:48:01 UTC</createdTime>
+<generatorID>38AD61CB-7FF4-519C-8C42-69F532FACAB4</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFF896D6-680A-B123-5C0E-69360F1B7C56"/>
+<colUsage columnID="1F495C24-2734-CB58-6D47-A6BBC5D26556"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34C6B6FA-0C07-6A2E-1105-355A9C4CC7A7" name="SESSIONS_EMPLOYEES_FK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:46:32 UTC</createdTime>
+<generatorID>89A754C6-AA6C-EE44-8D34-F7C279B2D500</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFF896D6-680A-B123-5C0E-69360F1B7C56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D977068A-F30C-9114-1D77-6D4FF9F0386B" name="SESSIONS_COURSES_FK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:46:32 UTC</createdTime>
+<generatorID>A097707E-C823-2328-00DA-1CF4860828EE</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F495C24-2734-CB58-6D47-A6BBC5D26556"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E963569F-067F-3197-4908-595E051C77AD" name="JOBCLASSIFICATION">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>816765B3-67B3-6637-94BC-901B17788BFD</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Employee_Title" id="57B90821-96AA-8058-2540-AC9B622B8B00">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>F6E890C3-C7A8-13E1-B9F3-919475D694AA</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Job_Class" id="7B713FD7-E704-ED7A-CAA6-92A1A8106319">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>00786D9B-6467-3DBD-B415-E8455DD2CE40</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_Employee_Num" id="E9929534-AC9A-4333-6A2A-AE9A4BF9A3DF">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>E35D4CAB-E742-6963-5CBA-BFAF46CC369B</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_Employee_Num2" id="27B268A1-6CBC-3D2F-814E-17D7640AC1B7">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-22 02:17:42 UTC</createdTime>
+<generatorID>027E7941-98B7-AC69-1B92-29026E6314FC</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F679FBD-5AA0-6411-D4C5-024D16701706" referredColumn="A38016DA-D63C-0DBD-CAAA-86AE096C780D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="101BB456-F055-BB10-CDF8-7876D159B6CB" name="JOBCLASSIFICATION_PK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>389CB30E-44E9-1FA0-322D-5122E8AB4712</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57B90821-96AA-8058-2540-AC9B622B8B00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E182720-DE5E-A028-8C4A-117FDCB295E6" name="JOBCLASSIFICATION__IDX">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>81E35E25-AAAF-479B-F44E-4B06F1430EBD</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E9929534-AC9A-4333-6A2A-AE9A4BF9A3DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00E4FAE8-4D2A-7973-0D31-1F4468E3F5CF" name="JOBCLASSIFICATION__IDXv1">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-22 02:17:42 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>81E35E25-AAAF-479B-F44E-4B06F1430EBD</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="27B268A1-6CBC-3D2F-814E-17D7640AC1B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBB1C91C-9228-7990-206D-9D101AE052AC" name="JOBCLASSIFICATION_EMPLOYEE_FK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-22 02:17:42 UTC</createdTime>
+<generatorID>81E35E25-AAAF-479B-F44E-4B06F1430EBD</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27B268A1-6CBC-3D2F-814E-17D7640AC1B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

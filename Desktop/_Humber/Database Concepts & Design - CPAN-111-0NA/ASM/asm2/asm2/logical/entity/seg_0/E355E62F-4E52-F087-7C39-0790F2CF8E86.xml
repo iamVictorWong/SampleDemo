@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E355E62F-4E52-F087-7C39-0790F2CF8E86" name="TRAINING">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-11 06:05:19 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Course_ID" id="046508F2-C831-25AD-B8C2-46E45F1F4938">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-11 06:05:29 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Course_Name" id="65E66011-182B-F283-C7C3-5F69654DD450">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-11 06:05:52 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C9B6C5B3-69C8-957B-9F1C-82DC6C5A0F7D" name="TRAINING PK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-11 06:05:50 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>046508F2-C831-25AD-B8C2-46E45F1F4938</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

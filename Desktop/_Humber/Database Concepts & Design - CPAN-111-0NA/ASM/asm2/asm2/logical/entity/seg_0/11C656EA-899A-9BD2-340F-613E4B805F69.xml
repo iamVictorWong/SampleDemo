@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="11C656EA-899A-9BD2-340F-613E4B805F69" name="EMPLOYEE">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-10 18:10:41 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>E</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Employee_Num" id="06D15101-5AD8-657C-1465-472877F2B40E">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-10 18:11:46 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Employee_Lastname" id="DE57F4FC-006C-BCEB-C603-B19CECCBE355">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-10 18:12:17 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Employee_DOB" id="8B185174-EF18-0966-5BB7-FC8238A35D19">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-11 05:59:01 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Employee_Hire_Dt" id="5BBB8671-44A4-E9A5-95B3-345505D2B5F7">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-11 05:59:42 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Employee_B_S" id="56F6272A-9028-1F63-1346-A51CA3ACB4F5">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-11 06:00:28 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,9,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Employee_C_R" id="3D5BEB41-435A-38B3-F144-0A8F214DFD6E">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-11 06:01:18 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,9,3</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="66728B70-CF92-24BA-C453-4197D9D6AE37" name="EMPLOYEE PK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-10 18:12:10 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>06D15101-5AD8-657C-1465-472877F2B40E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

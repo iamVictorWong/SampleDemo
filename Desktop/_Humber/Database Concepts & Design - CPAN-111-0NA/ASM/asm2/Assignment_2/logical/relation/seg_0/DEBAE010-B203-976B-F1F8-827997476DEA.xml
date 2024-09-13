@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LVL_EPE" directorySegmentName="seg_0" id="DEBAE010-B203-976B-F1F8-827997476DEA">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:21:23 UTC</createdTime>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<engineerTo>
+<item key="BE0BAC7F-8F55-2E2C-1CBA-E77C986D694C" value="true"/>
+</engineerTo>
+<targetTransferable>false</targetTransferable>
+<sourcePk>1A71AE03-723E-FAE0-400A-1ADB0B55C0A1</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>be held</nameOnSource>
+<nameOnTarget>hold</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C641BFFF-CBFE-A7E8-F372-1897614E072A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EF10A131-73BE-847F-035B-5021135FA9ED</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

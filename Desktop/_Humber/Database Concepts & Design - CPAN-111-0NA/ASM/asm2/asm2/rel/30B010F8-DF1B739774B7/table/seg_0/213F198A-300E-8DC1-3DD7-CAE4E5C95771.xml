@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="213F198A-300E-8DC1-3DD7-CAE4E5C95771" name="EMP_EDUCATION">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>70701811-9668-2634-9E77-3753CB67F6B1</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Edu_Level_ID" id="D487D938-FF5A-6196-9892-E1A462F14E4B">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>51C29E65-F433-E0A2-026F-9C6591DAFE9B</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Edu_Level" id="E7ACD261-3A7D-4EAE-F645-D43C67B638B9">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>66049926-E9F2-250B-2363-668D52F7C870</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_Employee_Num" id="813059FA-14A0-D628-1022-297BB7C79667">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>9CA8582F-5AA7-A291-5088-5A9E3FFA2EFA</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAB422F4-B661-747B-3C0D-201FA2C224AE" referredColumn="A38016DA-D63C-0DBD-CAAA-86AE096C780D"/>
+</associations>
+</Column>
+<Column name="Employee_Num" id="DEAE8772-DB2C-4CC7-F92F-26172CF03AF8">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-22 02:17:42 UTC</createdTime>
+<generatorID>D426F4C7-9AFD-E70D-2889-CC89C9C35259</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3F32EFB-2002-93CC-9A32-7CA9CE37FAE0" name="EMP_EDUCATION_PK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>83B28758-5B9D-1B7C-149A-8248375CFA98</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D487D938-FF5A-6196-9892-E1A462F14E4B"/>
+<colUsage columnID="813059FA-14A0-D628-1022-297BB7C79667"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="639A74E0-2500-1692-35FB-CD185EE58F19" name="EMP_EDUCATION_EMPLOYEE_FK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 19:20:02 UTC</createdTime>
+<generatorID>3174AB08-D6DB-3C94-82D3-F5893920AE89</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="813059FA-14A0-D628-1022-297BB7C79667"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

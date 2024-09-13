@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMP_MNR" directorySegmentName="seg_0" id="D8F31C9B-1E1E-D2CE-57B9-611767A06DE2">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:23:14 UTC</createdTime>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<engineerTo>
+<item key="BE0BAC7F-8F55-2E2C-1CBA-E77C986D694C" value="true"/>
+</engineerTo>
+<targetPk>2ABB1DC7-732C-7808-54C9-D34A9678A181</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>47B4152A-2027-DFF5-9C12-9FE2F6800414</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>47B4152A-2027-DFF5-9C12-9FE2F6800414</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

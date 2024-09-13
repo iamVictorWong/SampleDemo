@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMP_DEPT" directorySegmentName="seg_0" id="6323EA99-90E5-F441-7F23-31B0B77ACD5C">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-12 22:08:55 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="true"/>
+</engineerTo>
+<sourcePk>66728B70-CF92-24BA-C453-4197D9D6AE37</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Be assigned to</nameOnSource>
+<nameOnTarget>Retain</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>11C656EA-899A-9BD2-340F-613E4B805F69</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3B2666A8-5D1B-78D0-C520-67A38816EDF8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

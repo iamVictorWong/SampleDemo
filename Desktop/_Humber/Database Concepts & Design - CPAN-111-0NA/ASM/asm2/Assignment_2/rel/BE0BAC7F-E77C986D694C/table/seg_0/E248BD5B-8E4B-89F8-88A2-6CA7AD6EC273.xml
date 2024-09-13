@@ -1,0 +1,194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E248BD5B-8E4B-89F8-88A2-6CA7AD6EC273" name="EMPLOYEES">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:24:10 UTC</createdTime>
+<generatorID>47B4152A-2027-DFF5-9C12-9FE2F6800414</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<abbreviation>EPE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="num" id="1C558776-857F-F109-8701-38A8C5B07DA8">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:24:10 UTC</createdTime>
+<generatorID>B64D320A-103D-5459-325F-58BA323AC89D</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="firstname" id="EF26BCDB-B337-33AC-9DBE-D8F204FC3D45">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:24:10 UTC</createdTime>
+<generatorID>A2FCB381-F0A5-9D2D-5755-50D302297344</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lastname" id="681E2E9D-85E4-E953-828F-5248CCB91272">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:24:10 UTC</createdTime>
+<generatorID>B4BB5EB8-4905-F2A5-A76B-84757B10ABCD</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_of_birth" id="BDE000D9-0562-7E91-25A7-17FAB24CFA4A">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:24:10 UTC</createdTime>
+<generatorID>EF5B0CA5-C81E-591E-F654-5D1D50FE7263</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hire_date" id="75FDC861-0388-07C9-7767-9E3B725C5427">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:24:10 UTC</createdTime>
+<generatorID>61F07B3E-CDBF-F8B3-C729-3D8DF11F7BA2</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="basic_salary" id="48E6F062-B054-ABF6-AFE2-F3EBAA2B0D2F">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:24:10 UTC</createdTime>
+<generatorID>3C8C1FA4-347A-0C20-55C7-50C5811F3E53</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="commission_rate" id="1996FDB7-AF7D-20E0-A350-20FFB7B80E8A">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:24:10 UTC</createdTime>
+<generatorID>29C9F245-7987-D5FB-22D1-5A680CE3A517</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,2,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTMENTS_code" id="A486C949-CB10-3B14-02B3-A5F042CAA8F0">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:24:10 UTC</createdTime>
+<generatorID>1C3729E3-332C-761A-C4FD-7BEFB6E8259C</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D3C5602-BB5B-74AF-BEFB-048D06233875" referredColumn="55B1FE3E-C598-ABA8-23F9-3B214F44086A"/>
+</associations>
+</Column>
+<Column name="JOBS_title" id="D57136DB-42D6-E2DE-561D-F0A8EFA3F83F">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:24:10 UTC</createdTime>
+<generatorID>79277243-EF49-B958-32AA-C5377BBD0A5C</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20901EAE-22A8-C73E-1D19-21760086DD7E" referredColumn="8D0DE663-EBEA-45FD-1F32-0105392C5E93"/>
+</associations>
+</Column>
+<Column name="EMPLOYEES_num" id="4DE6FC7E-30D3-FD67-053E-5371D79678B5">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:24:10 UTC</createdTime>
+<generatorID>12B5B029-A265-2408-BAC4-E1C68901FA4E</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43502105-4BBC-B324-D12D-FDA0FF58C793" referredColumn="1C558776-857F-F109-8701-38A8C5B07DA8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7B54859-950D-7908-77A7-7CE341692D0C" name="EMPLOYEE_PK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:24:10 UTC</createdTime>
+<generatorID>2ABB1DC7-732C-7808-54C9-D34A9678A181</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C558776-857F-F109-8701-38A8C5B07DA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="528584A5-DF2F-31EA-5C89-0F51DE76D360" name="EMPLOYEES_EMPLOYEES_FK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:24:10 UTC</createdTime>
+<generatorID>D8F31C9B-1E1E-D2CE-57B9-611767A06DE2</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DE6FC7E-30D3-FD67-053E-5371D79678B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64AC33BD-1649-155C-A271-DBC472D986AB" name="EMPLOYEES_DEPARTMENTS_FK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:24:10 UTC</createdTime>
+<generatorID>A39E72FE-73C6-0BC8-1411-1E75E93E97C6</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A486C949-CB10-3B14-02B3-A5F042CAA8F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C90F6DF-45CE-94EB-01DF-9FEA0F25BE82" name="EMPLOYEES_JOBS_FK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:24:10 UTC</createdTime>
+<generatorID>4102CE17-60D9-9038-6CFA-5168CEE6245E</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D57136DB-42D6-E2DE-561D-F0A8EFA3F83F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

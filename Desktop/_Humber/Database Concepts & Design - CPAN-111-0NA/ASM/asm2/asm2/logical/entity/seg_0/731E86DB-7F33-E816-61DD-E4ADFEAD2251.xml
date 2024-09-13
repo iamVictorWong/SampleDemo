@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="731E86DB-7F33-E816-61DD-E4ADFEAD2251" name="SESSION">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-12 22:17:30 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Course_ID2" id="749AB5F0-7756-2019-9433-EA8381CA9058">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-12 22:35:17 UTC</createdTime>
+<generatorID>6BD65902-C848-73A4-B7AE-01DA6E94C714</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="true"/>
+</engineerTo>
+<referedAttribute>046508F2-C831-25AD-B8C2-46E45F1F4938</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Session_date" id="D50CB36C-0040-B868-FF05-0C83F2C58BB2">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 23:12:25 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Location" id="A106FB12-EE80-6971-A7A7-9380BDF0885F">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-21 23:12:49 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Employee_Num" id="3756C78E-387C-F645-3BAC-DCED2C01B58B">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-22 02:16:30 UTC</createdTime>
+<generatorID>84260075-4FED-0CF3-726A-091C6A2A05BD</generatorID>
+<ownerDesignName>asm2</ownerDesignName>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="true"/>
+</engineerTo>
+<referedAttribute>06D15101-5AD8-657C-1465-472877F2B40E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9B80DE3E-B402-9CD1-D8E6-0C8FB1B374F1" name="TRAINING PK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-12 22:17:30 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>749AB5F0-7756-2019-9433-EA8381CA9058</attributeRef>
+<attributeRef>3756C78E-387C-F645-3BAC-DCED2C01B58B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

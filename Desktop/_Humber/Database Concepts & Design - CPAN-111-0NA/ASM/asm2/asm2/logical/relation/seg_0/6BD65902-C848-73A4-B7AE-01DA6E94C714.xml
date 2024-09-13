@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TR_SESS" directorySegmentName="seg_0" id="6BD65902-C848-73A4-B7AE-01DA6E94C714">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-12 22:35:17 UTC</createdTime>
+<ownerDesignName>asm2</ownerDesignName>
+<engineerTo>
+<item key="30B010F8-D84B-CCD5-1549-DF1B739774B7" value="true"/>
+</engineerTo>
+<sourcePk>C9B6C5B3-69C8-957B-9F1C-82DC6C5A0F7D</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Be held</nameOnSource>
+<nameOnTarget>Hold</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E355E62F-4E52-F087-7C39-0790F2CF8E86</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>731E86DB-7F33-E816-61DD-E4ADFEAD2251</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

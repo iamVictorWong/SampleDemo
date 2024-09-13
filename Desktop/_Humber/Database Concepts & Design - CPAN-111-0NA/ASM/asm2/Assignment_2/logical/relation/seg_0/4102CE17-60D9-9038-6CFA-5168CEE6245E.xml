@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="JOB_EPE" directorySegmentName="seg_0" id="4102CE17-60D9-9038-6CFA-5168CEE6245E">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:00:42 UTC</createdTime>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<engineerTo>
+<item key="BE0BAC7F-8F55-2E2C-1CBA-E77C986D694C" value="true"/>
+</engineerTo>
+<sourcePk>737F3B2E-A0B0-0DE1-E446-4E385CD2B813</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>be assigned to</nameOnSource>
+<nameOnTarget>be entitled</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1BCA2BF4-6C89-FAC8-DB5A-F666E45C2831</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>47B4152A-2027-DFF5-9C12-9FE2F6800414</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

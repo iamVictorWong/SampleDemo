@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EPE_DED" directorySegmentName="seg_0" id="C7162BF5-F36E-C1AD-CB19-9646D5C22FCD">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:45:56 UTC</createdTime>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<engineerTo>
+<item key="BE0BAC7F-8F55-2E2C-1CBA-E77C986D694C" value="true"/>
+</engineerTo>
+<sourcePk>2ABB1DC7-732C-7808-54C9-D34A9678A181</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>have</nameOnSource>
+<nameOnTarget>be related to</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>47B4152A-2027-DFF5-9C12-9FE2F6800414</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>924D845F-35FF-8EA4-DC14-F78C35EB20B6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

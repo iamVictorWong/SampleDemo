@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5D678AA-5164-A016-1C90-4D1D793B352F" name="JOBS">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:24:10 UTC</createdTime>
+<generatorID>1BCA2BF4-6C89-FAC8-DB5A-F666E45C2831</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<abbreviation>JOB</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="title" id="8D0DE663-EBEA-45FD-1F32-0105392C5E93">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:24:10 UTC</createdTime>
+<generatorID>7BF2B585-18C1-35E6-39C5-F485B3A573BD</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="class" id="66E9811A-EC13-4F90-78C3-1A2E20659AE0">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:24:10 UTC</createdTime>
+<generatorID>8A16A3D3-29A4-A0BA-4B85-F6979B1A9EBA</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97BB434D-FAF1-A140-4136-AC603DFA8F2C" name="JOB_PK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:24:10 UTC</createdTime>
+<generatorID>737F3B2E-A0B0-0DE1-E446-4E385CD2B813</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D0DE663-EBEA-45FD-1F32-0105392C5E93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

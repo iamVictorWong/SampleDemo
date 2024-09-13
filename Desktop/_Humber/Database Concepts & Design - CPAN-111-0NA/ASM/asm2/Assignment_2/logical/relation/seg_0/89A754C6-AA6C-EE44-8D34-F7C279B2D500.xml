@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EPE_SSN" directorySegmentName="seg_0" id="89A754C6-AA6C-EE44-8D34-F7C279B2D500">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:33:10 UTC</createdTime>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<engineerTo>
+<item key="BE0BAC7F-8F55-2E2C-1CBA-E77C986D694C" value="true"/>
+</engineerTo>
+<sourcePk>2ABB1DC7-732C-7808-54C9-D34A9678A181</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>attend</nameOnSource>
+<nameOnTarget>be attended</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>47B4152A-2027-DFF5-9C12-9FE2F6800414</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AAC50DE4-2542-7107-52CA-A0E34506692F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

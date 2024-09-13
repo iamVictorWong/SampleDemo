@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="052FC95F-5029-9DC7-A857-B644921CAADC" name="DEPENDENTS">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:46:32 UTC</createdTime>
+<generatorID>924D845F-35FF-8EA4-DC14-F78C35EB20B6</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<abbreviation>DPD</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C92E95EF-786E-DC86-49C2-F158A07BB72E">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:46:32 UTC</createdTime>
+<generatorID>01345322-69A2-D442-5566-1456FF9C52F1</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="D1700C18-D513-DEF7-0814-1F28710F0548">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:46:32 UTC</createdTime>
+<generatorID>C9A03630-7011-1531-D87C-65C64360BF47</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="relationship" id="0C3DEEF9-3B45-19AF-EB53-D381E9D0269A">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:46:32 UTC</createdTime>
+<generatorID>DAAC36E5-2164-8DD4-4FB6-E2DC23169995</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEES_num" id="7981FCF4-9BF0-5F3F-D9D5-A6036F24A9B9">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:46:32 UTC</createdTime>
+<generatorID>5859C812-404D-1FD6-2A24-C3B6BEB844CD</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCEF1B8B-E847-B3BD-9DCB-70F17A00DF70" referredColumn="1C558776-857F-F109-8701-38A8C5B07DA8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85634A1D-43D4-8AAA-B207-EFCCE321B386" name="DEPENDENT_PK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:46:32 UTC</createdTime>
+<generatorID>2D4C88DC-2EB2-BBF4-02A4-F88BEE62CA45</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C92E95EF-786E-DC86-49C2-F158A07BB72E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9324A357-AAFF-2FB2-BCE0-61A21B38FA10" name="DEPENDENTS_EMPLOYEES_FK">
+<createdBy>victorwong</createdBy>
+<createdTime>2023-11-25 22:46:32 UTC</createdTime>
+<generatorID>C7162BF5-F36E-C1AD-CB19-9646D5C22FCD</generatorID>
+<ownerDesignName>Assignment_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7981FCF4-9BF0-5F3F-D9D5-A6036F24A9B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
